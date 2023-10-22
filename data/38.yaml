@@ -1,0 +1,136 @@
+---
+date: 2020-10-17
+type: pa28-181
+tail: 727ac
+from: frg
+to: frg
+nightLandings: 1
+asel: 1.8
+night: 0.8
+pic: 1.8
+total: 1.8
+...
+---
+date: 2020-10-22
+type: c172
+tail: 21394
+from: frg
+to: frg
+stops: fok
+dayLandings: 2
+approaches: 2
+asel: 2.8
+imc: 0.3
+hood: 0.4
+pic: 2.8
+dualReceived: 2.8
+total: 2.8
+...
+---
+date: 2020-10-31
+type: c172
+tail: 21394
+from: frg
+to: frg
+stops: isp
+nightLandings: 1
+approaches: 3
+asel: 1.9
+hood: 1.3
+night: 1.6
+pic: 1.9
+total: 1.9
+...
+---
+date: 2020-11-01
+type: redbird ld
+tail: aatd
+approaches: 2
+hood: 2.3
+sim: 2.3
+dualReceived: 2.3
+...
+---
+date: 2020-11-07
+type: redbird ld
+tail: aatd
+approaches: 3
+hood: 1.8
+sim: 1.8
+dualReceived: 1.8
+...
+---
+date: 2020-11-08
+type: pa28-181
+tail: 935de
+from: frg
+to: frg
+stops: lga
+nightLandings: 1
+asel: 1.7
+night: 1.5
+pic: 1.7
+total: 1.7
+...
+---
+date: 2020-11-09
+type: pa28-181
+tail: 935de
+from: frg
+to: frg
+nightLandings: 1
+asel: 1.5
+night: 1.5
+pic: 1.5
+total: 1.5
+...
+---
+date: 2020-11-11
+type: redbird ld
+tail: aatd
+approaches: 4
+hood: 2.3
+sim: 2.3
+dualReceived: 2.3
+...
+---
+date: 2020-11-13
+type: c172
+tail: 6059d
+from: frg
+to: frg
+stops: bdr
+nightLandings: 2
+approaches: 3
+asel: 2.6
+imc: 0.4
+hood: 1.6
+night: 2.6
+pic: 2.6
+total: 2.6
+...
+---
+date: 2020-11-14
+type: pa28-181
+tail: 727ac
+from: frg
+to: frg
+dayLandings: 1
+asel: 1.8
+pic: 1.8
+total: 1.8
+...
+---
+type: pageTotal
+dayLandings: 4
+nightLandings: 6
+approaches: 17
+asel: 14.1
+imc: 0.7
+hood: 9.7
+sim: 6.4
+night: 8
+pic: 14.1
+dualReceived: 9.2
+total: 14.1
+...

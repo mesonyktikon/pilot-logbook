@@ -1,0 +1,127 @@
+---
+date: 2020-08-19
+type: redbird ld
+tail: aatd
+approaches: 2
+hood: 1.3
+sim: 1.3
+dualReceived: 1.3
+...
+---
+date: 2020-08-23
+type: c172
+tail: 4975g
+from: frg
+to: frg
+stops: 0b8
+dayLandings: 1
+nightLandings: 1
+asel: 2.1
+night: 0.2
+xc: 2.1
+pic: 2.1
+total: 2.1
+...
+---
+date: 2020-08-26
+type: redbird ld
+tail: aatd
+approaches: 2
+hood: 1
+sim: 1
+dualReceived: 1
+...
+---
+date: 2020-08-30
+type: c172
+tail: n4975g
+from: frg
+to: frg
+stops: pou
+dayLandings: 1
+nightLandings: 1
+asel: 3.2
+night: 1.4
+xc: 3.2
+pic: 3.2
+total: 3.2
+...
+---
+date: 2020-08-31
+type: redbird ld
+tail: aatd
+approaches: 3
+hood: 1.1
+sim: 1.1
+dualReceived: 1.1
+...
+---
+date: 2020-09-01
+type: c172
+tail: 6059d
+from: frg
+to: frg
+dayLandings: 1
+approaches: 1
+asel: 1.8
+hood: 1.3
+pic: 1.8
+dualReceived: 1.8
+total: 1.8
+...
+---
+date: 2020-09-03
+type: c172
+tail: 6059d
+from: frg
+to: frg
+dayLandings: 1
+approaches: 5
+asel: 2.7
+hood: 2.3
+pic: 2.7
+dualReceived: 2.7
+total: 2.7
+...
+---
+date: 2020-09-04
+type: c172
+tail: 21394
+from: frg
+to: frg
+dayLandings: 1
+approaches: 2
+asel: 2
+hood: 1.3
+pic: 2
+dualReceived: 2
+total: 2
+...
+---
+date: 2020-09-07
+type: c172
+tail: 21394
+from: frg
+to: frg
+dayLandings: 1
+approaches: 3
+asel: 1.9
+hood: 1.5
+pic: 1.9
+dualReceived: 1.9
+total: 1.9
+...
+---
+type: pageTotal
+dayLandings: 6
+nightLandings: 2
+approaches: 18
+asel: 13.7
+hood: 9.8
+sim: 3.4
+night: 1.6
+xc: 5.3
+pic: 13.7
+dualReceived: 11.8
+total: 13.7
+...

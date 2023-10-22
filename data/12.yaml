@@ -1,0 +1,134 @@
+---
+date: 2019-08-27
+type: c172
+tail: 290tw
+from: sql
+to: sql
+stops: lvk
+dayLandings: 3
+asel: 1.8
+dualReceived: 1.8
+total: 1.8
+...
+---
+date: 2019-08-29
+type: c172
+tail: 733zk
+from: sql
+to: sql
+stops: hwd
+dayLandings: 16
+asel: 1.6
+dualReceived: 1.6
+total: 1.6
+...
+---
+date: 2019-09-02
+type: c172
+tail: 290tw
+from: sql
+to: sql
+stops: lvk
+dayLandings: 7
+asel: 2.3
+dualReceived: 2.3
+total: 2.3
+...
+---
+date: 2019-09-02
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 6
+asel: 1.1
+dualReceived: 1.1
+total: 1.1
+...
+---
+date: 2019-09-07
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 12
+asel: 1.4
+dualReceived: 1.4
+total: 1.4
+...
+---
+date: 2019-09-08
+type: c172
+tail: 733zk
+from: sql
+to: sql
+stops: hwd
+dayLandings: 14
+asel: 2.1
+dualReceived: 2.1
+total: 2.1
+...
+---
+date: 2019-09-09
+type: c172
+tail: 290tw
+from: sql
+to: sql
+stops: hwd
+dayLandings: 15
+nightLandings: 17
+asel: 2.8
+night: 1.5
+dualReceived: 2.8
+total: 2.8
+...
+---
+date: 2019-09-17
+type: c172
+tail: 972ta
+from: sql
+to: sql
+stops: lvk
+nightLandings: 8
+asel: 2.8
+night: 1
+dualReceived: 2.8
+total: 2.8
+...
+---
+date: 2019-09-19
+type: c172
+tail: 290tw
+from: sql
+to: sql
+stops: c83
+dayLandings: 6
+nightLandings: 1
+asel: 1.9
+hood: 0.2
+night: 1
+dualReceived: 1.9
+total: 1.9
+...
+---
+date: 2019-09-21
+type: c172
+tail: 972ta
+from: sql
+to: sql
+stops: haf
+dayLandings: 6
+asel: 1.2
+dualReceived: 1.2
+total: 1.2
+...
+---
+type: pageTotal
+dayLandings: 85
+nightLandings: 26
+asel: 19
+hood: 0.2
+night: 3.5
+dualReceived: 19
+total: 19
+...

@@ -1,0 +1,132 @@
+---
+date: 2020-11-21
+type: pa28-181
+tail: 6236j
+from: sql
+to: sql
+stops: tcy, lvk
+asel: 1.5
+total: 1.5
+...
+---
+date: 2020-12-06
+type: c172
+tail: 1242n
+from: pao
+to: pao
+stops: hwd
+dayLandings: 4
+approaches: 1
+asel: 1.3
+hood: 0.5
+pic: 1.3
+dualReceived: 1.3
+total: 1.3
+...
+---
+date: 2020-12-11
+type: c172
+tail: 698ja
+from: sql
+to: sql
+nightLandings: 1
+asel: 0.5
+night: 0.5
+pic: 0.5
+total: 0.5
+...
+---
+date: 2020-12-19
+type: pa28-236
+tail: 3038b
+from: sql
+to: sql
+dayLandings: 11
+asel: 1.5
+pic: 1.5
+dualReceived: 1.5
+total: 1.5
+...
+---
+date: 2021-01-03
+type: c172
+tail: 296me
+from: pao
+to: pao
+stops: lvk
+dayLandings: 2
+asel: 1.8
+pic: 1.8
+total: 1.8
+...
+---
+date: 2021-01-08
+type: c172
+tail: 384me
+from: sql
+to: sql
+stops: oak
+nightLandings: 3
+asel: 1.3
+night: 1.3
+pic: 1.3
+total: 1.3
+...
+---
+date: 2021-01-15
+type: c172
+tail: 384me
+from: sql
+to: sql
+nightLandings: 1
+asel: 1
+night: 1
+pic: 1
+total: 1
+...
+---
+date: 2021-01-16
+type: c172
+tail: 380sp
+from: sql
+to: sql
+dayLandings: 1
+asel: 1.2
+pic: 1.2
+total: 1.2
+...
+---
+date: 2021-01-29
+type: c172
+tail: 1004e
+from: pao
+to: pao
+nightLandings: 1
+asel: 1.5
+night: 1.5
+pic: 1.5
+total: 1.5
+...
+---
+date: 2021-01-31
+type: c172
+tail: 380sp
+from: sql
+to: sql
+dayLandings: 1
+asel: 1.7
+pic: 1.7
+total: 1.7
+...
+---
+type: pageTotal
+dayLandings: 19
+nightLandings: 6
+approaches: 1
+asel: 13.3
+hood: 0.5
+night: 4.3
+pic: 11.8
+dualReceived: 2.8
+total: 13.3
+...

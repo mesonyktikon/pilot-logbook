@@ -1,0 +1,163 @@
+---
+date: 2020-09-25
+type: c172
+tail: 21394
+from: frg
+to: n51
+dayLandings: 1
+approaches: 1
+asel: 1.7
+hood: 0.9
+xc: 1.7
+pic: 1.7
+dualReceived: 1.7
+total: 1.7
+...
+---
+date: 2020-09-25
+type: c172
+tail: 21394
+from: n51
+to: frg
+stops: swf, gon
+dayLandings: 3
+approaches: 3
+asel: 3.1
+hood: 2.7
+xc: 3.1
+pic: 3.1
+dualReceived: 3.1
+total: 3.1
+...
+---
+date: 2020-10-01
+type: c172
+tail: 6059d
+from: frg
+to: frg
+stops: 0b8
+dayLandings: 2
+approaches: 2
+asel: 2.3
+hood: 1.5
+xc: 2.3
+pic: 2.3
+dualReceived: 2.3
+total: 2.3
+...
+---
+date: 2020-10-02
+type: c172
+tail: 6059d
+from: frg
+to: frg
+stops: mmk, snc
+dayLandings: 3
+approaches: 2
+asel: 2.6
+hood: 1.7
+xc: 2.6
+pic: 2.6
+dualReceived: 2.6
+total: 2.6
+...
+---
+date: 2020-10-02
+type: pa28-181
+tail: 935de
+from: frg
+to: frg
+stops: ilg, ewr
+nightLandings: 2
+asel: 3.5
+night: 3.5
+xc: 3.5
+pic: 3.5
+total: 3.5
+...
+---
+date: 2020-10-03
+type: c172
+tail: 4975g
+from: frg
+to: frg
+stops: snc
+dayLandings: 1
+nightLandings: 1
+asel: 2.4
+night: 0.9
+xc: 2.4
+pic: 2.4
+total: 2.4
+...
+---
+date: 2020-10-09
+type: c172
+tail: 21394
+from: frg
+to: frg
+stops: 42b
+dayLandings: 2
+asel: 2
+xc: 2
+pic: 2
+total: 2
+...
+---
+date: 2020-10-15
+type: c172
+tail: 21394
+from: frg
+to: frg
+stops: hwv
+dayLandings: 2
+approaches: 3
+asel: 2.3
+hood: 1.7
+pic: 2.3
+dualReceived: 2.3
+total: 2.3
+...
+---
+date: 2020-10-16
+type: c172
+tail: 21394
+from: frg
+to: 44n
+dayLandings: 1
+approaches: 1
+asel: 1.3
+imc: 0.6
+xc: 1.3
+pic: 1.3
+dualReceived: 1.3
+total: 1.3
+...
+---
+date: 2020-10-16
+type: c172
+tail: 21394
+from: 44n
+to: frg
+dayLandings: 1
+asel: 1.1
+imc: 0.5
+xc: 1.1
+pic: 1.1
+dualReceived: 1.1
+total: 1.1
+...
+---
+type: pageTotal
+dayLandings: 18
+nightLandings: 1
+approaches: 12
+asel: 22.3
+imc: 1.1
+hood: 8.5
+night: 4.4
+xc: 20
+pic: 22.3
+dualReceived: 14.4
+total: 22.3
+...

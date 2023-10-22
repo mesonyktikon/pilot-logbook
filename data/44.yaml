@@ -1,0 +1,127 @@
+---
+date: 2021-04-17
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+stops: lvk
+dayLandings: 2
+heli: 0.9
+dualReceived: 0.9
+total: 0.9
+...
+---
+date: 2021-04-23
+type: pa28-236
+tail: 3038b
+from: sql
+to: sql
+stops: lvk
+dayLandings: 2
+asel: 2.3
+pic: 2.3
+total: 2.3
+...
+---
+date: 2021-05-08
+type: r22
+tail: 6625a
+from: hwd
+to: hwd
+dayLandings: 3
+heli: 1.3
+dualReceived: 1.3
+total: 1.3
+...
+---
+date: 2021-05-08
+type: 7eca
+tail: 383ac
+from: pao
+to: pao
+dayLandings: 17
+asel: 2.6
+pic: 2.6
+dualReceived: 2.6
+total: 2.6
+...
+---
+date: 2021-05-17
+type: c172
+tail: 54ja
+from: sql
+to: sql
+dayLandings: 11
+asel: 1.9
+pic: 1.9
+solo: 1.9
+total: 1.9
+...
+---
+date: 2021-05-22
+type: pfc-gt g1000
+tail: aatd
+approaches: 2
+hood: 1
+sim: 1
+dualReceived: 1
+...
+---
+date: 2021-05-22
+type: 7gcaa
+tail: 443ac
+from: pao
+to: pao
+dayLandings: 17
+asel: 1.9
+pic: 1.9
+dualReceived: 1.9
+total: 1.9
+...
+---
+date: 2021-05-24
+type: pfc-gt g1000
+tail: aatd
+approaches: 2
+hood: 1.3
+sim: 1.3
+...
+---
+date: 2021-05-25
+type: c172
+tail: 698ja
+from: sql
+to: sql
+stops: oak
+nightLandings: 3
+asel: 1.8
+night: 1.8
+pic: 1.8
+total: 1.8
+...
+---
+date: 2021-06-04
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+dayLandings: 8
+heli: 1.8
+dualReceived: 1.8
+total: 1.8
+...
+---
+type: pageTotal
+dayLandings: 60
+nightLandings: 3
+approaches: 4
+asel: 10.5
+heli: 4
+hood: 2.3
+sim: 2.3
+night: 1.8
+pic: 10.5
+solo: 1.9
+dualReceived: 9.5
+total: 14.5
+...

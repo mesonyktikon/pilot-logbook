@@ -1,0 +1,130 @@
+---
+date: 2020-05-26
+type: c172
+tail: 290tw
+from: sql
+to: sql
+stops: hwd
+dayLandings: 2
+asel: 1.7
+pic: 1.7
+total: 1.7
+...
+---
+date: 2020-05-27
+type: pa28-181
+tail: 3576j
+from: pao
+to: pao
+dayLandings: 8
+asel: 1.2
+pic: 1.2
+dualReceived: 1.2
+total: 1.2
+...
+---
+date: 2020-05-20
+type: pa28-181
+tail: 6236j
+from: sql
+to: sql
+asel: 0.5
+total: 0.5
+...
+---
+date: 2020-05-30
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 11
+asel: 1.2
+pic: 1.2
+solo: 1.2
+total: 1.2
+...
+---
+date: 2020-06-09
+type: pa28-181
+tail: 3576j
+from: pao
+to: pao
+stops: haf
+dayLandings: 2
+asel: 1.4
+pic: 1.4
+total: 1.4
+...
+---
+date: 2020-06-14
+type: pa28-181
+tail: 3576j
+from: pao
+to: pao
+nightLandings: 4
+asel: 0.6
+night: 0.6
+pic: 0.6
+solo: 0.6
+total: 0.6
+...
+---
+date: 2020-06-15
+type: 7gcaa
+tail: 443ac
+from: pao
+to: pao
+dayLandings: 4
+asel: 0.9
+pic: 0.9
+dualReceived: 0.9
+total: 0.9
+...
+---
+date: 2020-06-16
+type: 7gcaa
+tail: 443ac
+from: pao
+to: pao
+dayLandings: 11
+asel: 1
+pic: 1
+dualReceived: 1
+total: 1
+...
+---
+date: 2020-06-17
+type: pa28-181
+tail: 3576j
+from: pao
+to: pao
+stops: lvk, oak
+dayLandings: 1
+nightLandings: 2
+asel: 2.1
+night: 1.1
+pic: 2.1
+total: 2.1
+...
+---
+date: 2020-06-21
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 1
+asel: 1.4
+pic: 1.4
+total: 1.4
+...
+---
+type: pageTotal
+dayLandings: 40
+nightLandings: 6
+asel: 12
+night: 1.7
+pic: 11.5
+solo: 1.8
+dualReceived: 3.1
+total: 12
+...

@@ -1,0 +1,135 @@
+---
+date: 2020-03-03
+type: c172
+tail: 290tw
+from: sql
+to: sql
+nightLandings: 1
+asel: 0.9
+night: 0.4
+pic: 0.9
+solo: 0.9
+total: 0.9
+...
+---
+date: 2020-03-08
+type: c172
+tail: 35583
+from: sql
+to: sql
+stops: o69
+dayLandings: 2
+asel: 2.4
+pic: 2.4
+total: 2.4
+...
+---
+date: 2020-04-08
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 1
+asel: 0.8
+pic: 0.8
+solo: 0.8
+total: 0.8
+...
+---
+date: 2020-04-13
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 4
+asel: 1.2
+pic: 1.2
+solo: 1.2
+total: 1.2
+...
+---
+date: 2020-04-25
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 1
+asel: 1.6
+pic: 1.6
+solo: 1.6
+total: 1.6
+...
+---
+date: 2020-05-08
+type: c172
+tail: 290tw
+from: sql
+to: sql
+stops: hwd
+dayLandings: 8
+nightLandings: 1
+asel: 0.9
+night: 0.6
+pic: 0.9
+solo: 0.9
+total: 0.9
+...
+---
+date: 2020-05-20
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 1
+asel: 0.8
+night: 0.4
+pic: 0.8
+solo: 0.8
+total: 0.8
+...
+---
+date: 2020-05-21
+type: c172
+tail: 290tw
+from: sql
+to: sql
+dayLandings: 1
+asel: 1.4
+pic: 1.4
+total: 1.4
+...
+---
+date: 2020-05-25
+type: pa28-181
+tail: 3576j
+from: pao
+to: pao
+dayLandings: 6
+asel: 1.4
+pic: 1.4
+dualReceived: 1.4
+total: 1.4
+...
+---
+date: 2020-05-25
+type: 7gcaa
+tail: 443ac
+from: pao
+to: pao
+dayLandings: 6
+asel: 0.9
+pic: 0.9
+dualReceived: 0.9
+total: 0.9
+...
+---
+type: pageTotal
+dayLandings: 30
+nightLandings: 2
+asel: 12.3
+night: 1.4
+pic: 12.3
+solo: 6.2
+dualReceived: 2.3
+total: 12.3
+...

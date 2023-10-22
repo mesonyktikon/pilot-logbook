@@ -1,0 +1,132 @@
+---
+date: 2021-07-05
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+stops: oak
+dayLandings: 10
+heli: 1.5
+dualReceived: 1.5
+total: 1.5
+...
+---
+date: 2021-07-08
+type: c172
+tail: 9045b
+from: pao
+to: pao
+stops: lvk, oak
+dayLandings: 1
+nightLandings: 3
+asel: 2.8
+night: 1.2
+pic: 2.8
+total: 2.8
+...
+---
+date: 2021-07-15
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+dayLandings: 2
+heli: 1.2
+dualReceived: 1.2
+total: 1.2
+...
+---
+date: 2021-07-26
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+stops: oak
+dayLandings: 7
+heli: 1
+dualReceived: 1
+total: 1
+...
+---
+date: 2021-07-29
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+dayLandings: 6
+heli: 1.4
+dualReceived: 1.4
+total: 1.4
+...
+---
+date: 2021-07-31
+type: pa28-181
+tail: 3576j
+from: pao
+to: pao
+stops: vcb
+dayLandings: 2
+asel: 1.8
+xc: 1.8
+pic: 1.8
+total: 1.8
+...
+---
+date: 2021-08-05
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+stops: oak
+dayLandings: 9
+heli: 1.5
+dualReceived: 1.5
+total: 1.5
+...
+---
+date: 2021-08-07
+type: pa28-181
+tail: 81034
+from: sql
+to: sql
+stops: lvk
+dayLandings: 2
+asel: 2.1
+pic: 2.1
+total: 2.1
+...
+---
+date: 2021-08-09
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+stops: oak
+dayLandings: 12
+heli: 1.5
+dualReceived: 1.5
+total: 1.5
+...
+---
+date: 2021-08-12
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+dayLandings: 8
+heli: 1.6
+dualReceived: 1.6
+total: 1.6
+...
+---
+type: pageTotal
+dayLandings: 59
+nightLandings: 3
+asel: 6.7
+heli: 9.7
+night: 1.2
+xc: 1.8
+pic: 6.7
+dualReceived: 9.7
+total: 16.4
+...
