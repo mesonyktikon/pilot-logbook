@@ -124,8 +124,8 @@ const verifyData = () => {
 // also respects order
 const TABLE_HEADERS = {
   date: 'DATE',
-  type: 'MODEL',
-  tail: 'ID',
+  type: 'TYPE',
+  tail: 'TAIL',
   from: 'FROM',
   to: 'TO',
   stops: 'STOPS',
@@ -187,7 +187,7 @@ const printTable = (entries, opts = {
 
   const totals = sumTotals(entries)
   totals.date = 'SUM TOTAL'
-  const data = [...entries, {}, totals]
+  const data = [...entries, totals]
 
   // TODO how can i add page breaks in the data?
   const dataWithPageBreaks = []
@@ -230,4 +230,4 @@ const computeTotals = () => {
 loadData()
 verifyData()
 // computeTotals()
-printTable(logbookEntries) //.filter(entry => !entry.sim))
+printTable(logbookEntries.filter(entry => !entry.sim))

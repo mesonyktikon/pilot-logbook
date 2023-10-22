@@ -1,0 +1,141 @@
+---
+date: 2022-10-19
+type: r44
+tail: 40544
+from: toa
+to: toa
+stops: cpm
+dayLandings: 5
+heli: 0.9
+pic: 0.9
+dual: 0.9
+total: 0.9
+...
+---
+date: 2022-10-22
+type: c172
+tail: 384me
+from: sql
+to: sql
+dayLandings: 12
+asel: 1.5
+pic: 1.5
+solo: 1.5
+total: 1.5
+...
+---
+date: 2022-10-22
+type: c172
+tail: 384me
+from: sql
+to: sql
+stops: haf, oak, hwd
+dayLandings: 4
+asel: 1.7
+pic: 1.7
+total: 1.7
+...
+---
+date: 2022-10-29
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+dayLandings: 5
+heli: 1
+pic: 1
+dual: 1
+total: 1
+...
+---
+date: 2022-10-29
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+stops: sns
+dayLandings: 2
+heli: 2.2
+xc: 2.2
+pic: 2.2
+solo: 2.2
+total: 2.2
+...
+---
+date: 2022-10-29
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+dayLandings: 6
+heli: 0.5
+night: 0.2
+pic: 0.5
+solo: 0.5
+total: 0.5
+...
+---
+date: 2022-11-05
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+dayLandings: 5
+heli: 1
+pic: 1
+dual: 1
+total: 1
+...
+---
+date: 2022-11-11
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+stops: oak
+nightLandings: 4
+heli: 0.6
+night: 0.6
+pic: 0.6
+dual: 0.6
+total: 0.6
+...
+---
+date: 2022-11-11
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+nightLandings: 1
+heli: 1.5
+night: 1.5
+pic: 1.5
+solo: 1.5
+total: 1.5
+...
+---
+date: 2022-11-12
+type: r44
+tail: 4040
+from: hwd
+to: lsn
+dayLandings: 1
+heli: 1.1
+xc: 1.1
+pic: 1.1
+solo: 1.1
+total: 1.1
+...
+---
+type: pageTotal
+dayLandings: 40
+nightLandings: 5
+asel: 3.2
+heli: 8.8
+night: 2.3
+xc: 3.3
+pic: 12
+solo: 6.8
+dual: 3.5
+total: 12
+...
