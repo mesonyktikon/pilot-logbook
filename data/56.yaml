@@ -1,0 +1,146 @@
+---
+date: 2021-12-18
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+dayLandings: 5
+heli: 1.6
+dual: 1.6
+total: 1.6
+...
+---
+date: 2021-12-20
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+dayLandings: 7
+heli: 1.1
+dual: 1.1
+total: 1.1
+...
+---
+date: 2021-12-29
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+dayLandings: 5
+heli: 1.2
+dual: 1.2
+total: 1.2
+...
+---
+date: 2021-12-30
+type: r22
+tail: 290sh
+from: hwd
+to: hwd
+dayLandings: 5
+heli: 1.2
+dual: 1.2
+total: 1.2
+...
+---
+date: 2022-01-17
+type: c182
+tail: 420wa
+from: pao
+to: pao
+stops: dvo, llr, sts
+dayLandings: 3
+nightLandings: 3
+asel: 5.5
+imc: 0.1
+night: 1.5
+xc: 5.5
+pic: 5.5
+total: 5.5
+...
+---
+date: 2022-02-09
+type: c182
+tail: 727vt
+from: pao
+to: pao
+stops: oak
+nightLandings: 3
+asel: 1.5
+night: 1.5
+pic: 1.5
+solo: 1.5
+total: 1.5
+...
+---
+date: 2022-03-01
+type: c172
+tail: 296me
+from: pao
+to: pao
+stops: oak
+nightLandings: 3
+asel: 1.4
+night: 1
+pic: 1.4
+total: 1.4
+...
+---
+date: 2022-03-04
+type: c172
+tail: 1242n
+from: pao
+to: smo
+dayLandings: 1
+approaches: 1
+asel: 2.7
+imc: 0.3
+xc: 2.7
+pic: 2.7
+total: 2.7
+...
+---
+date: 2022-03-05
+type: c172
+tail: 1242n
+from: smo
+to: lax
+nightLandings: 1
+asel: 0.7
+night: 0.7
+xc: 0.7
+pic: 0.7
+solo: 0.7
+total: 0.7
+...
+---
+date: 2022-03-06
+type: c172
+tail: 1242n
+from: lax
+to: oak
+stops: e16
+dayLandings: 1
+nightLandings: 1
+asel: 3.9
+night: 1.3
+xc: 3.9
+pic: 3.9
+solo: 3.9
+total: 3.9
+...
+---
+type: pageTotal
+dayLandings: 27
+nightLandings: 11
+approaches: 1
+asel: 15.7
+heli: 5.1
+imc: 0.4
+night: 6
+xc: 12.8
+pic: 15.7
+solo: 6.1
+dual: 5.1
+total: 20.8
+...
