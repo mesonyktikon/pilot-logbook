@@ -25,7 +25,7 @@ approaches: 3
 asel: 2
 hood: 1.4
 pic: 2
-dualReceived: 2
+dual: 2
 total: 2
 ...
 ---
@@ -42,7 +42,7 @@ imc: 0.2
 hood: 1.8
 xc: 2.5
 pic: 2.5
-dualReceived: 2.5
+dual: 2.5
 total: 2.5
 ...
 ---
@@ -57,7 +57,7 @@ approaches: 4
 asel: 2.4
 hood: 1.6
 pic: 2.4
-dualReceived: 2.4
+dual: 2.4
 total: 2.4
 ...
 ---
@@ -72,7 +72,7 @@ approaches: 4
 asel: 2.3
 hood: 1.7
 pic: 2.3
-dualReceived: 2.3
+dual: 2.3
 total: 2.3
 ...
 ---
@@ -87,7 +87,7 @@ approaches: 3
 asel: 2.1
 hood: 1.7
 pic: 2.1
-dualReceived: 2.1
+dual: 2.1
 total: 2.1
 ...
 ---
@@ -102,7 +102,7 @@ approaches: 3
 asel: 2.3
 hood: 1.8
 pic: 2.3
-dualReceived: 2.3
+dual: 2.3
 total: 2.3
 ...
 ---
@@ -146,7 +146,7 @@ approaches: 3
 asel: 2.1
 hood: 1.5
 pic: 2.1
-dualReceived: 2.1
+dual: 2.1
 total: 2.1
 ...
 ---
@@ -161,6 +161,6 @@ night: 2.4
 xc: 11.6
 pic: 24.8
 solo: 2.1
-dualReceived: 15.7
+dual: 15.7
 total: 24.8
 ...

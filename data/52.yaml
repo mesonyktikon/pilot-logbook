@@ -8,7 +8,7 @@ stops: lvk, c83, tcy
 dayLandings: 4
 heli: 1.5
 xc: 1.5
-dualReceived: 1.5
+dual: 1.5
 total: 1.5
 ...
 ---
@@ -34,7 +34,7 @@ to: pao
 dayLandings: 6
 asel: 1.4
 pic: 1.4
-dualReceived: 1.4
+dual: 1.4
 total: 1.4
 ...
 ---
@@ -45,7 +45,7 @@ from: hwd
 to: hwd
 dayLandings: 4
 heli: 0.9
-dualReceived: 0.9
+dual: 0.9
 total: 0.9
 ...
 ---
@@ -69,7 +69,7 @@ from: hwd
 to: hwd
 dayLandings: 12
 heli: 1.7
-dualReceived: 1.7
+dual: 1.7
 total: 1.7
 ...
 ---
@@ -109,7 +109,7 @@ stops: sql
 dayLandings: 7
 asel: 1.6
 pic: 1.6
-dualReceived: 1.6
+dual: 1.6
 total: 1.6
 ...
 ---
@@ -136,6 +136,6 @@ night: 0.5
 xc: 7.9
 pic: 11.3
 solo: 4.4
-dualReceived: 8.8
+dual: 8.8
 total: 15.4
 ...

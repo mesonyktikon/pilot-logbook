@@ -8,7 +8,7 @@ nightLandings: 1
 asel: 1.2
 night: 1.2
 xc: 1.2
-dualReceived: 1.2
+dual: 1.2
 total: 1.2
 ...
 ---
@@ -21,7 +21,7 @@ stops: haf
 nightLandings: 2
 asel: 1.4
 night: 1.4
-dualReceived: 1.4
+dual: 1.4
 total: 1.4
 ...
 ---
@@ -34,7 +34,7 @@ stops: hwd, oak
 nightLandings: 11
 asel: 2.6
 night: 2.6
-dualReceived: 2.6
+dual: 2.6
 total: 2.6
 ...
 ---
@@ -88,7 +88,7 @@ asel: 2.5
 hood: 0.3
 night: 2.5
 xc: 2.5
-dualReceived: 2.5
+dual: 2.5
 total: 2.5
 ...
 ---
@@ -115,7 +115,7 @@ nightLandings: 6
 asel: 2
 hood: 1
 night: 2
-dualReceived: 2
+dual: 2
 total: 2
 ...
 ---
@@ -142,6 +142,6 @@ night: 9.7
 xc: 8.7
 pic: 7.6
 solo: 7.6
-dualReceived: 9.7
+dual: 9.7
 total: 17.3
 ...

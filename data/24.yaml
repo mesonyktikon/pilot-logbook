@@ -19,7 +19,7 @@ to: pao
 dayLandings: 8
 asel: 1.2
 pic: 1.2
-dualReceived: 1.2
+dual: 1.2
 total: 1.2
 ...
 ---
@@ -77,7 +77,7 @@ to: pao
 dayLandings: 4
 asel: 0.9
 pic: 0.9
-dualReceived: 0.9
+dual: 0.9
 total: 0.9
 ...
 ---
@@ -89,7 +89,7 @@ to: pao
 dayLandings: 11
 asel: 1
 pic: 1
-dualReceived: 1
+dual: 1
 total: 1
 ...
 ---
@@ -125,6 +125,6 @@ asel: 12
 night: 1.7
 pic: 11.5
 solo: 1.8
-dualReceived: 3.1
+dual: 3.1
 total: 12
 ...

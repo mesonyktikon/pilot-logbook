@@ -9,7 +9,7 @@ dayLandings: 7
 nightLandings: 1
 asel: 1
 night: 0.2
-dualReceived: 1
+dual: 1
 total: 1
 ...
 ---
@@ -21,7 +21,7 @@ to: sql
 stops: pao
 dayLandings: 7
 asel: 1.1
-dualReceived: 1.1
+dual: 1.1
 total: 1.1
 ...
 ---
@@ -137,6 +137,6 @@ night: 4
 xc: 3.6
 pic: 11.8
 solo: 1.4
-dualReceived: 2.1
+dual: 2.1
 total: 13.9
 ...

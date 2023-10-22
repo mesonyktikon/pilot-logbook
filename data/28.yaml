@@ -4,7 +4,7 @@ type: redbird ld
 tail: aatd
 hood: 1
 sim: 1
-dualReceived: 1
+dual: 1
 ...
 ---
 date: 2020-07-28
@@ -26,7 +26,7 @@ tail: ftd
 approaches: 1
 hood: 1
 sim: 1
-dualReceived: 1
+dual: 1
 ...
 ---
 date: 2020-07-31
@@ -71,7 +71,7 @@ type: redbird ld
 tail: aatd
 hood: 1.1
 sim: 1.1
-dualReceived: 1.1
+dual: 1.1
 ...
 ---
 date: 2020-08-01
@@ -82,7 +82,7 @@ to: frg
 dayLandings: 2
 asel: 1
 pic: 1
-dualReceived: 1
+dual: 1
 total: 1
 ...
 ---
@@ -91,7 +91,7 @@ type: redbird ld
 tail: aatd
 hood: 0.8
 sim: 0.8
-dualReceived: 0.8
+dual: 0.8
 ...
 ---
 date: 2020-08-05
@@ -99,7 +99,7 @@ type: redbird ld
 tail: aatd
 hood: 1.1
 sim: 1.1
-dualReceived: 1.1
+dual: 1.1
 ...
 ---
 type: pageTotal
@@ -112,6 +112,6 @@ sim: 5
 night: 2.3
 pic: 4.5
 solo: 1.1
-dualReceived: 6
+dual: 6
 total: 4.5
 ...

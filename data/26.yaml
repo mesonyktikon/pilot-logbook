@@ -7,7 +7,7 @@ to: sql
 dayLandings: 1
 asel: 0.6
 pic: 0.6
-dualReceived: 0.6
+dual: 0.6
 total: 0.6
 ...
 ---
@@ -19,7 +19,7 @@ to: sql
 dayLandings: 6
 asel: 0.9
 pic: 0.9
-dualReceived: 0.9
+dual: 0.9
 total: 0.9
 ...
 ---
@@ -31,7 +31,7 @@ to: sql
 dayLandings: 3
 asel: 0.9
 pic: 0.9
-dualReceived: 0.9
+dual: 0.9
 total: 0.9
 ...
 ---
@@ -43,7 +43,7 @@ to: sql
 dayLandings: 7
 asel: 1.1
 pic: 1.1
-dualReceived: 1.1
+dual: 1.1
 total: 1.1
 ...
 ---
@@ -80,7 +80,7 @@ stops: isp
 dayLandings: 5
 asel: 1.7
 pic: 1.7
-dualReceived: 1.7
+dual: 1.7
 total: 1.7
 ...
 ---
@@ -92,7 +92,7 @@ to: frg
 dayLandings: 2
 asel: 0.5
 pic: 0.5
-dualReceived: 0.5
+dual: 0.5
 total: 0.5
 ...
 ---
@@ -127,6 +127,6 @@ asel: 12.5
 night: 2.6
 xc: 4.2
 pic: 12.5
-dualReceived: 5.7
+dual: 5.7
 total: 12.5
 ...

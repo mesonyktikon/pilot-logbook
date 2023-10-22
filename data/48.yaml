@@ -7,7 +7,7 @@ to: hwd
 stops: oak
 dayLandings: 10
 heli: 1.5
-dualReceived: 1.5
+dual: 1.5
 total: 1.5
 ...
 ---
@@ -32,7 +32,7 @@ from: hwd
 to: hwd
 dayLandings: 2
 heli: 1.2
-dualReceived: 1.2
+dual: 1.2
 total: 1.2
 ...
 ---
@@ -44,7 +44,7 @@ to: hwd
 stops: oak
 dayLandings: 7
 heli: 1
-dualReceived: 1
+dual: 1
 total: 1
 ...
 ---
@@ -55,7 +55,7 @@ from: hwd
 to: hwd
 dayLandings: 6
 heli: 1.4
-dualReceived: 1.4
+dual: 1.4
 total: 1.4
 ...
 ---
@@ -80,7 +80,7 @@ to: hwd
 stops: oak
 dayLandings: 9
 heli: 1.5
-dualReceived: 1.5
+dual: 1.5
 total: 1.5
 ...
 ---
@@ -104,7 +104,7 @@ to: hwd
 stops: oak
 dayLandings: 12
 heli: 1.5
-dualReceived: 1.5
+dual: 1.5
 total: 1.5
 ...
 ---
@@ -115,7 +115,7 @@ from: hwd
 to: hwd
 dayLandings: 8
 heli: 1.6
-dualReceived: 1.6
+dual: 1.6
 total: 1.6
 ...
 ---
@@ -127,6 +127,6 @@ heli: 9.7
 night: 1.2
 xc: 1.8
 pic: 6.7
-dualReceived: 9.7
+dual: 9.7
 total: 16.4
 ...

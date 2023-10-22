@@ -65,7 +65,7 @@ approaches: 1
 asel: 1.5
 hood: 1
 pic: 1.5
-dualReceived: 1.5
+dual: 1.5
 total: 1.5
 ...
 ---
@@ -77,7 +77,7 @@ to: pao
 dayLandings: 3
 asel: 1.2
 pic: 1.2
-dualReceived: 1.2
+dual: 1.2
 total: 1.2
 ...
 ---
@@ -113,7 +113,7 @@ to: pao
 dayLandings: 7
 asel: 1.1
 pic: 1.1
-dualReceived: 1.1
+dual: 1.1
 total: 1.1
 ...
 ---
@@ -124,7 +124,7 @@ from: hwd
 to: hwd
 dayLandings: 1
 heli: 1.1
-dualReceived: 1.1
+dual: 1.1
 total: 1.1
 ...
 ---
@@ -139,6 +139,6 @@ hood: 2.1
 night: 5
 pic: 12.7
 solo: 1.2
-dualReceived: 4.9
+dual: 4.9
 total: 13.8
 ...

@@ -141,16 +141,16 @@ const TABLE_HEADERS = {
   xc: 'XC',
   pic: 'PIC',
   solo: 'SOLO',
-  dualReceived: 'DUAL RCV',
+  dual: 'DUAL RCV',
   total: 'TOTAL',
 }
 
 const printTable = (entries, opts = {
   rowColors: [
     // filter func, which color to apply to the row
-    [(entry) => !!entry.asel, chalk.green],
-    [(entry) => !!entry.heli, chalk.blue.bold],
-    [(entry) => !!entry.sim, chalk.red],
+    [(entry) => !!entry.asel, chalk.green.bold],
+    [(entry) => !!entry.heli, chalk.blueBright.bold],
+    [(entry) => !!entry.sim, chalk.red.bold],
   ],
 }) => {
   const table = new AsciiTable3('Logbook Entries')

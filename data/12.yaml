@@ -7,7 +7,7 @@ to: sql
 stops: lvk
 dayLandings: 3
 asel: 1.8
-dualReceived: 1.8
+dual: 1.8
 total: 1.8
 ...
 ---
@@ -19,7 +19,7 @@ to: sql
 stops: hwd
 dayLandings: 16
 asel: 1.6
-dualReceived: 1.6
+dual: 1.6
 total: 1.6
 ...
 ---
@@ -31,7 +31,7 @@ to: sql
 stops: lvk
 dayLandings: 7
 asel: 2.3
-dualReceived: 2.3
+dual: 2.3
 total: 2.3
 ...
 ---
@@ -42,7 +42,7 @@ from: sql
 to: sql
 dayLandings: 6
 asel: 1.1
-dualReceived: 1.1
+dual: 1.1
 total: 1.1
 ...
 ---
@@ -53,7 +53,7 @@ from: sql
 to: sql
 dayLandings: 12
 asel: 1.4
-dualReceived: 1.4
+dual: 1.4
 total: 1.4
 ...
 ---
@@ -65,7 +65,7 @@ to: sql
 stops: hwd
 dayLandings: 14
 asel: 2.1
-dualReceived: 2.1
+dual: 2.1
 total: 2.1
 ...
 ---
@@ -79,7 +79,7 @@ dayLandings: 15
 nightLandings: 17
 asel: 2.8
 night: 1.5
-dualReceived: 2.8
+dual: 2.8
 total: 2.8
 ...
 ---
@@ -92,7 +92,7 @@ stops: lvk
 nightLandings: 8
 asel: 2.8
 night: 1
-dualReceived: 2.8
+dual: 2.8
 total: 2.8
 ...
 ---
@@ -107,7 +107,7 @@ nightLandings: 1
 asel: 1.9
 hood: 0.2
 night: 1
-dualReceived: 1.9
+dual: 1.9
 total: 1.9
 ...
 ---
@@ -119,7 +119,7 @@ to: sql
 stops: haf
 dayLandings: 6
 asel: 1.2
-dualReceived: 1.2
+dual: 1.2
 total: 1.2
 ...
 ---
@@ -129,6 +129,6 @@ nightLandings: 26
 asel: 19
 hood: 0.2
 night: 3.5
-dualReceived: 19
+dual: 19
 total: 19
 ...

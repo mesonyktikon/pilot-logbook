@@ -23,7 +23,7 @@ asel: 2.8
 imc: 0.3
 hood: 0.4
 pic: 2.8
-dualReceived: 2.8
+dual: 2.8
 total: 2.8
 ...
 ---
@@ -48,7 +48,7 @@ tail: aatd
 approaches: 2
 hood: 2.3
 sim: 2.3
-dualReceived: 2.3
+dual: 2.3
 ...
 ---
 date: 2020-11-07
@@ -57,7 +57,7 @@ tail: aatd
 approaches: 3
 hood: 1.8
 sim: 1.8
-dualReceived: 1.8
+dual: 1.8
 ...
 ---
 date: 2020-11-08
@@ -91,7 +91,7 @@ tail: aatd
 approaches: 4
 hood: 2.3
 sim: 2.3
-dualReceived: 2.3
+dual: 2.3
 ...
 ---
 date: 2020-11-13
@@ -131,6 +131,6 @@ hood: 9.7
 sim: 6.4
 night: 8
 pic: 14.1
-dualReceived: 9.2
+dual: 9.2
 total: 14.1
 ...

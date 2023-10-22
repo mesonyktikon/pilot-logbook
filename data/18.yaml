@@ -20,7 +20,7 @@ to: sql
 stops: haf
 dayLandings: 2
 asel: 1.1
-dualReceived: 1.1
+dual: 1.1
 total: 1.1
 ...
 ---
@@ -32,7 +32,7 @@ to: sql
 dayLandings: 1
 asel: 0.7
 hood: 0.3
-dualReceived: 0.7
+dual: 0.7
 total: 0.7
 ...
 ---
@@ -58,7 +58,7 @@ nightLandings: 4
 asel: 1.9
 hood: 0.3
 night: 1.9
-dualReceived: 1.9
+dual: 1.9
 total: 1.9
 ...
 ---
@@ -83,7 +83,7 @@ to: vgt
 nightLandings: 1
 asel: 1.4
 night: 1.4
-dualReceived: 1.4
+dual: 1.4
 total: 1.4
 ...
 ---
@@ -108,6 +108,6 @@ hood: 0.6
 night: 3.3
 pic: 8.3
 solo: 8.3
-dualReceived: 5.1
+dual: 5.1
 total: 13.4
 ...
