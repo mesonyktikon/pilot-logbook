@@ -153,7 +153,7 @@ const pawelStyle = {
     top: { left: '╭', center: '─', right: '╮', colSeparator: '┬' },
     middle: { left: '├', center: '─', right: '┤', colSeparator: '┼' },
     bottom: { left: '╰', center: '─', right: '╯', colSeparator: '┴' },
-    data: { left: '│', center: ' ', right: '│', colSeparator: chalk.red('•') }
+    data: { left: '│', center: ' ', right: '│', colSeparator: chalk.red(' ') }
   }
 }
 
@@ -189,7 +189,18 @@ const printTable = (entries, opts = {
   totals.date = 'SUM TOTAL'
   const data = [...entries, {}, totals]
 
-  table.addRowMatrix(data.map((entry) => {
+  // TODO how can i add page breaks in the data?
+  const dataWithPageBreaks = []
+  let currentPage = data[0].srcFilename
+  data.forEach((d) => {
+    if (d.srcFilename !== currentPage) {
+      dataWithPageBreaks.push({})
+      currentPage = d.srcFilename
+    }
+    dataWithPageBreaks.push(d)
+  })
+
+  table.addRowMatrix(dataWithPageBreaks.map((entry) => {
     // TODO some columns i'd like to have formatted to 1 decimal even for integer values e.g. '3.0' in lieu of '3'
     let rowValues = headerKeys
       .map((key) => entry[key] || '')
@@ -219,4 +230,4 @@ const computeTotals = () => {
 loadData()
 verifyData()
 // computeTotals()
-printTable(logbookEntries.filter(entry => !entry.sim))
+printTable(logbookEntries) //.filter(entry => !entry.sim))
