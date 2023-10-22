@@ -109,13 +109,13 @@ const verifyData = () => {
       const expected = pageTotal[expectedKey]
       const computed = computedTotal[expectedKey]
       if (expected !== computed) {
-        console.error(`[${srcFilename}] [${expectedKey}] expected ${expected} computed ${computed}`)
+        console.error(chalk.yellow.bold(`[${srcFilename}] [${expectedKey}] expected ${expected} computed ${computed}`))
         okay = false
       }
     })
 
     if (okay) {
-      console.log(`[${srcFilename}] page totals OK`)
+      // console.log(chalk.green(`[${srcFilename}] page totals OK`))
     }
   })
 }
@@ -145,11 +145,23 @@ const TABLE_HEADERS = {
   total: 'TOTAL',
 }
 
+const DEC_FORMAT = 'asel heli imc hood sim night xc pic solo dual total'.split(' ')
+
+const pawelStyle = {
+  name: 'pawel-1',
+  borders: {
+    top: { left: '╭', center: '─', right: '╮', colSeparator: '┬' },
+    middle: { left: '├', center: '─', right: '┤', colSeparator: '┼' },
+    bottom: { left: '╰', center: '─', right: '╯', colSeparator: '┴' },
+    data: { left: '│', center: ' ', right: '│', colSeparator: chalk.red('•') }
+  }
+}
+
 const printTable = (entries, opts = {
   rowColors: [
     // filter func, which color to apply to the row
     [(entry) => !!entry.asel, chalk.green.bold],
-    [(entry) => !!entry.heli, chalk.blueBright.bold],
+    [(entry) => !!entry.heli, chalk.yellow.bold],
     [(entry) => !!entry.sim, chalk.red.bold],
   ],
 }) => {
@@ -157,11 +169,20 @@ const printTable = (entries, opts = {
   const headerKeys = Object.keys(TABLE_HEADERS)
   const headerTitles = Object.values(TABLE_HEADERS)
 
+  // array of size of columns with true in place where op should be applies
+  const shouldDecFormatIdx = headerKeys.map((v) => DEC_FORMAT.includes(v))
+
   table.setHeading(...headerTitles)
-  table.setStyle('unicode-round')
+  // table.setStyle('unicode-round')
+  table.addStyle(pawelStyle)
+  table.setStyle('pawel-1')
 
   for (let i in headerTitles) {
-    table.setAlign(Number(i), AlignmentEnum.CENTER)
+    table.setAlign(Number(i) + 1, AlignmentEnum.RIGHT)
+  }
+
+  for (let i = 1; i <= 6; i++) {
+    table.setAlign(i, AlignmentEnum.CENTER)
   }
 
   const totals = sumTotals(entries)
@@ -170,10 +191,16 @@ const printTable = (entries, opts = {
 
   table.addRowMatrix(data.map((entry) => {
     // TODO some columns i'd like to have formatted to 1 decimal even for integer values e.g. '3.0' in lieu of '3'
-    let rowValues = headerKeys.map((key) => entry[key] || '')
+    let rowValues = headerKeys
+      .map((key) => entry[key] || '')
+      .map((val, idx) => val && shouldDecFormatIdx[idx] ? Number(val).toFixed(1) : val)
+
+    if (entry.date === 'SUM TOTAL') {
+      rowValues = rowValues.map(v => chalk.bold.blue.underline(v))
+    }
 
     opts.rowColors?.forEach(([filter, apply]) => {
-      if (entry.date !== 'SUM TOTAL' && filter(entry)) {
+      if (!!entry.date && entry.date !== 'SUM TOTAL' && filter(entry)) {
         rowValues = rowValues.map(v => apply(v))
       }
     })
@@ -192,4 +219,4 @@ const computeTotals = () => {
 loadData()
 verifyData()
 // computeTotals()
-printTable(logbookEntries)
+printTable(logbookEntries.filter(entry => !entry.sim))
