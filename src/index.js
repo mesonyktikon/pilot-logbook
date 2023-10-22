@@ -129,8 +129,8 @@ const TABLE_HEADERS = {
   from: 'FROM',
   to: 'TO',
   stops: 'STOPS',
-  dayLandings: 'L-DY',
-  nightLandings: 'L-NT',
+  dayLandings: 'DY',
+  nightLandings: 'NT',
   approaches: 'IAP',
   asel: 'ASEL',
   heli: 'HELI',
@@ -141,7 +141,7 @@ const TABLE_HEADERS = {
   xc: 'XC',
   pic: 'PIC',
   solo: 'SOLO',
-  dual: 'DUAL RCV',
+  dual: 'DUAL',
   total: 'TOTAL',
 }
 
