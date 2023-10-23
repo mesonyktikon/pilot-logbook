@@ -169,7 +169,7 @@ const printTable = (entries, opts = {
   const headerKeys = Object.keys(TABLE_HEADERS)
   const headerTitles = Object.values(TABLE_HEADERS)
 
-  // array of size of columns with true in place where op should be applies
+  // array of size num of cols with true in place where op should be applied
   const shouldDecFormatIdx = headerKeys.map((v) => DEC_FORMAT.includes(v))
 
   table.setHeading(...headerTitles)
@@ -189,7 +189,6 @@ const printTable = (entries, opts = {
   totals.date = 'SUM TOTAL'
   const data = [...entries, totals]
 
-  // TODO how can i add page breaks in the data?
   const dataWithPageBreaks = []
   let currentPage = data[0].srcFilename
   data.forEach((d) => {
@@ -201,7 +200,6 @@ const printTable = (entries, opts = {
   })
 
   table.addRowMatrix(dataWithPageBreaks.map((entry) => {
-    // TODO some columns i'd like to have formatted to 1 decimal even for integer values e.g. '3.0' in lieu of '3'
     let rowValues = headerKeys
       .map((key) => entry[key] || '')
       .map((val, idx) => val && shouldDecFormatIdx[idx] ? Number(val).toFixed(1) : val)
@@ -230,4 +228,4 @@ const computeTotals = () => {
 loadData()
 verifyData()
 // computeTotals()
-printTable(logbookEntries.filter(entry => !entry.sim))
+printTable(logbookEntries) // .filter(entry => !entry.sim))
