@@ -20,7 +20,6 @@ const sumTotals = entryList => {
       if (typeof value !== 'number') {
         return
       }
-      // sometimes... an all number tail number can sneak through...
       if (ignoreSummingKeys.includes(key)) {
         return
       }
@@ -54,18 +53,11 @@ const loadData = () => {
         pageTotals.push(entry)
       } else {
         entry.srcFilename = filename
-        // Some tidying up
         entry.tail = String(entry.tail).toUpperCase()
         entry.type = entry.type.toUpperCase()
-        if (entry.from) {
-          entry.from = entry.from.toUpperCase()
-        }
-        if (entry.to) {
-          entry.to = entry.to.toUpperCase()
-        }
-        if (entry.stops) {
-          entry.stops = entry.stops.toUpperCase().replace(/ /g, '')
-        }
+        entry.from && (entry.from = entry.from.toUpperCase())
+        entry.to && (entry.to = entry.to.toUpperCase())
+        entry.stops && (entry.stops = entry.stops.toUpperCase().replace(/ /g, ''))
         logbookEntries.push(entry)
       }
     })
@@ -84,14 +76,11 @@ const verifyData = () => {
   })
 
   const numPageEntries = Object.keys(pageEntries).length
-  if (numPageEntries === pageTotals.length - 1) {
-    console.info('missing a page total')
-  } else if (numPageEntries !== pageTotals.length) {
+  if (numPageEntries !== pageTotals.length) {
     throw new Error(`expected ${pageTotals.length} page totals but have ${numPageEntries}`)
   }
 
   pageTotals.forEach((pageTotal) => {
-    let okay = true
     const { srcFilename } = pageTotal
     if (!pageEntries[srcFilename]) {
       throw new Error(`have page totals for ${srcFilename} but there are no entries`)
@@ -109,14 +98,8 @@ const verifyData = () => {
       const expected = pageTotal[expectedKey]
       const computed = computedTotal[expectedKey]
       if (expected !== computed) {
-        console.error(chalk.yellow.bold(`[${srcFilename}] [${expectedKey}] expected ${expected} computed ${computed}`))
-        okay = false
-      }
+        console.error(chalk.yellow.bold(`[${srcFilename}] [${expectedKey}] expected ${expected} computed ${computed}`))}
     })
-
-    if (okay) {
-      // console.log(chalk.green(`[${srcFilename}] page totals OK`))
-    }
   })
 }
 
@@ -173,7 +156,6 @@ const printTable = (entries, opts = {
   const shouldDecFormatIdx = headerKeys.map((v) => DEC_FORMAT.includes(v))
 
   table.setHeading(...headerTitles)
-  // table.setStyle('unicode-round')
   table.addStyle(pawelStyle)
   table.setStyle('pawel-1')
 
@@ -219,7 +201,6 @@ const printTable = (entries, opts = {
   console.log(table.toString())
 }
 
-// once data is verified, we can compute interesting things
 const computeTotals = () => {
   const grandTotals = sumTotals(logbookEntries)
   console.table(grandTotals)
