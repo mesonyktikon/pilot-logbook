@@ -1,0 +1,145 @@
+---
+date: 2023-01-14
+type: r22
+tail: 479sh
+from: hwd
+to: hwd
+stops: oak
+dayLandings: 8
+heli: 2.1
+pic: 2.1
+solo: 2.1
+total: 2.1
+...
+---
+date: 2023-01-16
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+dayLandings: 6
+heli: 1.1
+pic: 1.1
+dual: 1.1
+total: 1.1
+...
+---
+date: 2023-01-18
+type: pa28-236
+tail: 3038b
+from: sql
+to: sql
+stops: hwd
+nightLandings: 3
+asel: 1.1
+night: 1.1
+pic: 1.1
+total: 1.1
+...
+---
+date: 2023-02-11
+type: r44
+tail: 4040
+from: hwd
+to: hwd
+stops: oar, wvi
+dayLandings: 3
+heli: 2.1
+xc: 2.1
+pic: 2.1
+dual: 2.1
+total: 2.1
+...
+---
+date: 2023-02-18
+type: c182
+tail: 727vt
+from: pao
+to: pao
+stops: fat
+dayLandings: 2
+asel: 2.8
+xc: 2.8
+pic: 2.8
+dual: 2.8
+total: 2.8
+...
+---
+date: 2023-03-04
+type: c172
+tail: 54ja
+from: sql
+to: sql
+stops: oak
+nightLandings: 5
+asel: 1.4
+night: 1.4
+pic: 1.4
+solo: 1.4
+total: 1.4
+...
+---
+date: 2023-03-18
+type: c172
+tail: 456dx
+from: pao
+to: pao
+stops: mry, rhv
+dayLandings: 2
+nightLandings: 1
+asel: 2.2
+night: 0.5
+xc: 2.2
+pic: 2.2
+solo: 2.2
+total: 2.2
+...
+---
+date: 2023-03-24
+type: pfc-gt g1000
+tail: aatd
+approaches: 1
+hood: 1
+sim: 1
+...
+---
+date: 2023-04-07
+type: c172
+tail: 54ja
+from: sql
+to: sql
+stops: oak
+nightLandings: 3
+asel: 1.2
+night: 1.2
+pic: 1.2
+total: 1.2
+...
+---
+date: 2023-04-17
+type: c182
+tail: 727vt
+from: pao
+to: pao
+dayLandings: 5
+asel: 1
+pic: 1
+solo: 1
+total: 1
+...
+---
+type: pageTotal
+dayLandings: 26
+nightLandings: 12
+approaches: 1
+asel: 9.7
+heli: 5.3
+hood: 1
+sim: 1
+night: 4.2
+xc: 7.1
+pic: 15
+solo: 6.7
+dual: 6
+total: 15
+...
