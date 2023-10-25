@@ -76,7 +76,9 @@ const verifyData = () => {
   })
 
   const numPageEntries = Object.keys(pageEntries).length
-  if (numPageEntries !== pageTotals.length) {
+  if (numPageEntries - 1 === pageTotals.length) {
+    console.log(chalk.red('missing one page total'))
+  } else if (numPageEntries !== pageTotals.length) {
     throw new Error(`expected ${pageTotals.length} page totals but have ${numPageEntries}`)
   }
 
@@ -140,7 +142,9 @@ const pawelStyle = {
   }
 }
 
-const printTable = (entries, opts = {
+const generateTable = (entries, opts = {
+  enableColor: true,
+  print: true,
   rowColors: [
     // filter func, which color to apply to the row
     [(entry) => !!entry.asel, chalk.green.bold],
@@ -186,11 +190,11 @@ const printTable = (entries, opts = {
       .map((key) => entry[key] || '')
       .map((val, idx) => val && shouldDecFormatIdx[idx] ? Number(val).toFixed(1) : val)
 
-    if (entry.date === 'SUM TOTAL') {
+    if (opts.enableColor && entry.date === 'SUM TOTAL') {
       rowValues = rowValues.map(v => chalk.bold.blue.underline(v))
     }
 
-    opts.rowColors?.forEach(([filter, apply]) => {
+    opts.enableColor && opts.rowColors?.forEach(([filter, apply]) => {
       if (!!entry.date && entry.date !== 'SUM TOTAL' && filter(entry)) {
         rowValues = rowValues.map(v => apply(v))
       }
@@ -198,7 +202,8 @@ const printTable = (entries, opts = {
     return rowValues
 }))
 
-  console.log(table.toString())
+  opts.print && console.log(table.toString())
+  return JSON.parse(table.toJSON())
 }
 
 const computeTotals = () => {
@@ -208,5 +213,4 @@ const computeTotals = () => {
 
 loadData()
 verifyData()
-// computeTotals()
-printTable(logbookEntries) // .filter(entry => !entry.sim))
+const table = generateTable(logbookEntries) // .filter(entry => !entry.sim))
