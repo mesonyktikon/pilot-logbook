@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'fs'
+import { readFileSync, readdirSync, writeFileSync } from 'fs'
 import chalk from 'chalk'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
@@ -8,6 +8,7 @@ import {AlignmentEnum, AsciiTable3} from 'ascii-table3'
 const rootDirectory = dirname(dirname(fileURLToPath(import.meta.url)))
 
 const dataDirectory = join(rootDirectory, 'data')
+const distDirectory = join(rootDirectory, 'dist')
 const ignoreSummingKeys = ['tail', 'type', 'srcFilename']
 
 // an unfortunate reality of decimals in js is floating point arithmetic.
@@ -138,12 +139,12 @@ const pawelStyle = {
     top: { left: '╭', center: '─', right: '╮', colSeparator: '┬' },
     middle: { left: '├', center: '─', right: '┤', colSeparator: '┼' },
     bottom: { left: '╰', center: '─', right: '╯', colSeparator: '┴' },
-    data: { left: '│', center: ' ', right: '│', colSeparator: chalk.red(' ') }
+    data: { left: '│', center: ' ', right: '│', colSeparator: ' '},
   }
 }
 
 const generateTable = (entries, opts = {
-  enableColor: true,
+  enableColor: false,
   print: true,
   rowColors: [
     // filter func, which color to apply to the row
@@ -201,6 +202,8 @@ const generateTable = (entries, opts = {
     })
     return rowValues
 }))
+
+  writeFileSync(join(distDirectory, 'table.txt'), table.toString())
 
   opts.print && console.log(table.toString())
   return JSON.parse(table.toJSON())

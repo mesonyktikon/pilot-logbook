@@ -21,3 +21,5 @@ i'm pushing this publicly as inspiration for other pilot programmers who are not
 logbook "solutions" and looking for other ways to approach the problem.
 
 once the data is fully entered and reports are generated, i'll post them online (and here, for reference). stay tuned :)
+
+[[holdentry]](https://holdentry.com)
